@@ -16,7 +16,7 @@ meu_projeto/
 ├── config.py
 ├── run.py
 └── venv/ (Ambiente virtual do Python)
-
+documentação em estudo por Adriana
 
 meu_projeto/: O diretório raiz do seu projeto.
 
