@@ -1,0 +1,52 @@
+meu_projeto/
+├── app/
+│   ├── static/
+│   │   ├── css/
+│   │   └── js/
+│   ├── templates/
+│   └── __init__.py
+├── chat/
+│   ├── views.py
+│   ├── templates/
+│   └── __init__.py
+├── main/
+│   ├── views.py
+│   ├── templates/
+│   └── __init__.py
+├── config.py
+├── run.py
+└── venv/ (Ambiente virtual do Python)
+
+
+meu_projeto/: O diretório raiz do seu projeto.
+
+app/: Este é o módulo principal da sua aplicação Flask.
+
+static/: Armazena seus arquivos estáticos, como CSS e JavaScript.
+
+templates/: Contém seus arquivos HTML para as páginas.
+
+__init__.py: Inicializa a aplicação Flask e configuração.
+
+chat/: Módulo para a página do chat.
+
+views.py: Define as rotas e as funções de visualização para a página do chat.
+
+templates/: Contém os modelos HTML específicos para o chat.
+
+__init__.py: Pode ser usado para inicializar o módulo do chat, se necessário.
+
+main/: Módulo para a página principal.
+
+views.py: Define as rotas e as funções de visualização para a página principal.
+
+templates/: Contém os modelos HTML específicos para a página principal.
+
+__init__.py: Pode ser usado para inicializar o módulo principal, se necessário.
+
+config.py: Arquivo de configuração onde você pode definir variáveis de configuração para sua aplicação Flask, como configurações de banco de dados, segurança, etc.
+
+run.py: Este é o arquivo que você executa para iniciar seu aplicativo Flask. Ele geralmente contém o código para iniciar o servidor de desenvolvimento.
+Certifique-se de criar um ambiente virtual (venv/) para isolar as dependências do seu projeto.
+
+Esta é uma estrutura básica para começar com o Flask. Você pode expandi-la e organizar melhor conforme o projeto crescer e novos módulos ou funcionalidades forem adicionados. Certifique-se de configurar as rotas em app/__init__.py e use os modelos HTML nas pastas de templates/ para as páginas do chat e da página principal
