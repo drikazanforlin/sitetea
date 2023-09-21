@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="twxt/css" href="css/style.css">
+    <title>TEA para Pais</title>
+</head>
+<body> <!--Estrutura básica site-->
+    <header id="logo">Logo</header>
+
+    <nav id="menu">
+        <h3>nav - menu</h3>
+        <ul>
+            <li>Nossa história / Introdução</li>
+            <li>Visão</li>
+            <li>Missão</li>
+            <li>Histórias de Superação</li>
+            <li>Você não está só</li>
+            <li>Contato</li>
+        </ul>
+    </nav>
+   
+    <main id="principal">
+        <h3>main - parte principal</h3>
+        <h2>Queremos te conhecer!</h2>
+              
+        <form action="action.php" method="post">
+            <legend>Fique a vontade para falar sobre você</legend>
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="nome" required><br>
+            <label for="fone">Telefone / WhatsApp</label>
+            <input type="text" id="fone" name="fone"><br>
+            <label for="história">Conte aqui a sua história:</label><br>
+            <textarea placeholder="Digite aqui." id="mensagem" cols="30" rows="10" required></textarea><br>
+            <label for="arquivo">Foto</label>
+            <input type="file" name="arquivo" id="arquivo"><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    
+    <aside id="relacionados">
+        <h3>aside - links relacionados</h3>
+        <p>Links de sites</p>
+        <p>Fotos</p>
+        <p>Nosso Social (insta e face)</p>
+    </aside>
+
+    <footer>
+        <h3>footer - rodapé</h3>
+        <p>Nossos Contatos</p>
+        <p>Insta</p>
+        <p>e-mail</p>
+    </footer>
+    
+</body>
+</html>
